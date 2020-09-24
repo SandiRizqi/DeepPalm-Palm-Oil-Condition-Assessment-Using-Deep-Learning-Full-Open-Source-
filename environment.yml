@@ -1,0 +1,14 @@
+name: deeppalm
+dependencies:
+  - python=3.6
+  - pillow
+  - pip
+  - matplotlib
+  - rasterio
+  - geopandas
+  - pip:
+    - DeepForest
+    - LabelImg
+    - tensorflow-gpu==1.14
+    - descartes
+    - comet_ml
